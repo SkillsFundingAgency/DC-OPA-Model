@@ -75,11 +75,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ESFA.DC.OPA.Model.Interface\ESFA.DC.OPA.Model.Interface.csproj">
-      <Project>{71580d07-54d4-487a-884b-30443ae8640a}</Project>
+      <Project>{36fed779-d6c6-4985-86be-5a814e2a8e8d}</Project>
       <Name>ESFA.DC.OPA.Model.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\ESFA.DC.OPA.Model\ESFA.DC.OPA.Model.csproj">
-      <Project>{a76079ca-6d42-4f64-a790-2f9db04a7582}</Project>
+      <Project>{06becf99-6258-477b-bc63-0784ddc43ad1}</Project>
       <Name>ESFA.DC.OPA.Model</Name>
     </ProjectReference>
   </ItemGroup>
