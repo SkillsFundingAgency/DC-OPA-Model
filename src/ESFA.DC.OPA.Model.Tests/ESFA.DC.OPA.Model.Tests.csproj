@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ESFA.DC.OPA.Model.Interface, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ESFA.DC.OPA.Model.Interface.0.1.0-beta0001\lib\netstandard2.0\ESFA.DC.OPA.Model.Interface.dll</HintPath>
+    </Reference>
     <Reference Include="FluentAssertions, Version=5.1.2.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentAssertions.5.1.2\lib\net45\FluentAssertions.dll</HintPath>
     </Reference>
@@ -74,10 +77,6 @@
     <Analyzer Include="..\packages\xunit.analyzers.0.7.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ESFA.DC.OPA.Model.Interface\ESFA.DC.OPA.Model.Interface.csproj">
-      <Project>{36fed779-d6c6-4985-86be-5a814e2a8e8d}</Project>
-      <Name>ESFA.DC.OPA.Model.Interface</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ESFA.DC.OPA.Model\ESFA.DC.OPA.Model.csproj">
       <Project>{06becf99-6258-477b-bc63-0784ddc43ad1}</Project>
       <Name>ESFA.DC.OPA.Model</Name>
